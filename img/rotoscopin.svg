@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="113px" height="95px" viewBox="0 0 113 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="34.5" cy="45.5" r="34.5"></circle>
+        <polygon id="path-2" points="69.6383275 7.62421763 100.152402 25.241527 100.152402 60.4761456 69.6383275 78.0934549 39.1242527 60.4761456 39.1242527 25.241527"></polygon>
+        <polygon id="path-3" points="42.6062034 49 92 83.6314545 37 109"></polygon>
+    </defs>
+    <g id="home-/-landing-v3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-245.000000, -1308.000000)">
+        <g id="services" transform="translate(0.000000, 1059.000000)">
+            <g id="roto." transform="translate(151.000000, 241.000000)">
+                <g id="Group-2" transform="translate(98.000000, 4.000000)">
+                    <g id="Oval-4">
+                        <use fill="#C9C9D5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <circle stroke="#2E2E33" stroke-width="4" cx="34.5" cy="45.5" r="36.5"></circle>
+                    </g>
+                    <g id="Polygon" transform="translate(69.638327, 42.858836) rotate(-345.000000) translate(-69.638327, -42.858836) ">
+                        <use fill="#9B9BA8" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke="#2E2E33" stroke-width="4" d="M69.6383275,5.31481656 L102.152402,24.0868264 L102.152402,61.6308461 L69.6383275,80.402856 L37.1242527,61.6308461 L37.1242527,24.0868264 L69.6383275,5.31481656 Z"></path>
+                    </g>
+                    <g id="Triangle" transform="translate(64.500000, 79.000000) rotate(25.000000) translate(-64.500000, -79.000000) ">
+                        <use fill="#B6B6C3" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <path stroke="#2E2E33" stroke-width="4" d="M40.9351912,45.3857965 L95.9962152,83.9907119 L34.6857567,112.269933 L40.9351912,45.3857965 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
