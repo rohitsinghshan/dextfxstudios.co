@@ -97,7 +97,7 @@ img {
 }
 
 video {
-    background-size: cover;
+    background-size: contain;
     display: table-cell;
     vertical-align: middle;
     width: 100%;
