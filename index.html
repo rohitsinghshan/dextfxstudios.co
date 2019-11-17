@@ -803,7 +803,7 @@
                                 <input type="text" name="subject" id="subject" placeholder="Subject" class="input-bg">
                                 <textarea name="comment" id="comment" placeholder="Your Message"
                                     class="input-bg"></textarea>
-                                <button  onclick="sendMail(); return false" id="contact-us-button" type="submit"
+                                <button id="contact-us-button" type="submit"
                                     class="btn btn-small border-radius-4 btn-black">send message</button>
                             </form>
                         </div>
@@ -903,14 +903,26 @@
 
     <script type="text/javascript" src="js/main.js"></script>
     <script>
-        function sendMail() {
-    var link = "mailto:rohitsinghshan@mailinator.com"
-             + "&subject=" + escape("This is my subject")
-             + "&body=" + escape(document.getElementById('comment').value)
-    ;
+       $(function() {
+    $("#contact-us-button").click(function() {
+    var data = {
+                name: $("#name").val(),
+                email: $("#email").val(),
+                subject: $("#subject").val(),
+                message: $("#comment").val()
+            };
+            $.ajax({
+                type: "POST",
+                url: "email.php",
+                data: data,
+                success: function(){
+                    $('.success').fadeIn(1000);
+                }
+            });
 
-    window.location.href = link;
-}
+        return false;
+    });
+});
     </script>
 </body>
 
