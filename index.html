@@ -796,12 +796,12 @@
                         <div class="text-extra-dark-gray alt-font text-large font-weight-600 margin-30px-bottom">Looking
                             for an excellent business idea?</div>
                         <div>
-                            <form id="contact-form" action="javascript:void(0)" method="post">
+                            <form id="contact-form"  action="mailto:you@yourdmainhere.com" method="post" enctype="text/plain" >
                                 <div id="success-contact-form" class="mx-0"></div>
                                 <input type="text" name="name" id="name" placeholder="Name*" class="input-bg">
                                 <input type="text" name="email" id="email" placeholder="E-mail*" class="input-bg">
                                 <input type="text" name="subject" id="subject" placeholder="Subject" class="input-bg">
-                                <textarea name="comment" id="comment" placeholder="Your Message"
+                                <textarea name="message" id="message" placeholder="Your Message"
                                     class="input-bg"></textarea>
                                 <button id="contact-us-button" type="submit"
                                     class="btn btn-small border-radius-4 btn-black">send message</button>
@@ -902,28 +902,6 @@
     <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
 
     <script type="text/javascript" src="js/main.js"></script>
-    <script>
-       $(function() {
-    $("#contact-us-button").click(function() {
-    var data = {
-                name: $("#name").val(),
-                email: $("#email").val(),
-                subject: $("#subject").val(),
-                message: $("#comment").val()
-            };
-            $.ajax({
-                type: "POST",
-                url: "email.php",
-                data: data,
-                success: function(){
-                    $('.success').fadeIn(1000);
-                }
-            });
-
-        return false;
-    });
-});
-    </script>
 </body>
 
 </html>
