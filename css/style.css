@@ -232,7 +232,11 @@ dl {
     text-overflow: ellipsis;
     opacity: 1;
 }
-
+.next-nav{
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
 /* ===================================
     Typography
 ====================================== */
